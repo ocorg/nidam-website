@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "services": "Services",
+    "projects": "Projects",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get Started"
+  },
+  "hero": {
+    "title": "Digitalize Your Organization",
+    "subtitle": "Custom tools for Moroccan associations and small businesses.",
+    "cta_primary": "Start Now",
+    "cta_secondary": "View Projects"
+  }
+}

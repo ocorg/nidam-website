@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "services": "Services",
+    "projects": "Projets",
+    "pricing": "Tarifs",
+    "about": "À propos",
+    "contact": "Contact",
+    "cta": "Démarrer"
+  },
+  "hero": {
+    "title": "Digitalisez votre organisation",
+    "subtitle": "Des outils sur-mesure pour associations et TPE marocaines.",
+    "cta_primary": "Commencer maintenant",
+    "cta_secondary": "Voir les projets"
+  }
+}

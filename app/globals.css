@@ -2,26 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Smooth locale transitions */
+html {
+  scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* RTL-safe spacing reset for Arabic */
+[dir="rtl"] * {
+  letter-spacing: 0;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Ensure numbers render LTR even inside RTL layouts */
+[dir="rtl"] .ltr-numbers {
+  direction: ltr;
+  unicode-bidi: isolate;
 }
